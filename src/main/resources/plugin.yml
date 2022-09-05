@@ -1,4 +1,4 @@
-name: Test Plugin
+name: TestPlugin
 version: '${project.version}'
 main: com.torben.testplugin.Main
 api-version: 1.16
