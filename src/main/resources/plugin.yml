@@ -4,5 +4,3 @@ main: com.torben.testplugin.Main
 api-version: 1.16
 authors: [ Torben ]
 description: test plugin for stuff
-commands:
-  boost:
