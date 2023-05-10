@@ -1,0 +1,32 @@
+{
+  "higherTobu": {
+    "sounds": [
+      {
+        "name": "music/higher.ogg",
+        "volume": 1,
+        "pitch": 1,
+        "preload": true
+      }
+    ]
+  },
+  "allStar": {
+    "sounds": [
+      {
+        "name": "music/allstar.ogg",
+        "volume": 1,
+        "pitch": 1,
+        "preload": true
+      }
+    ]
+  },
+  "heIsAPirate": {
+    "sounds": [
+      {
+        "name": "music/heisapirate.ogg",
+        "volume": 1,
+        "pitch": 1,
+        "preload": true
+      }
+    ]
+  }
+  }

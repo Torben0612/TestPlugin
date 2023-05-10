@@ -4,16 +4,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.torben</groupId>
-    <artifactId>testplugin</artifactId>
+    <groupId>me.torben</groupId>
+    <artifactId>TestPlugin</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>Test Plugin</name>
+    <name>TestPlugin</name>
 
-    <description>test plugin for stuff</description>
     <properties>
-        <java.version>11</java.version>
+        <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -38,6 +37,9 @@
                         <goals>
                             <goal>shade</goal>
                         </goals>
+                        <configuration>
+                            <createDependencyReducedPom>false</createDependencyReducedPom>
+                        </configuration>
                     </execution>
                 </executions>
             </plugin>
@@ -50,7 +52,6 @@
         </resources>
     </build>
 
-
     <repositories>
         <repository>
             <id>spigotmc-repo</id>
@@ -61,8 +62,8 @@
             <url>https://oss.sonatype.org/content/groups/public/</url>
         </repository>
         <repository>
-            <id>enginehub-repo</id>
-            <url>https://maven.enginehub.org/repo/</url>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
         </repository>
     </repositories>
 
@@ -74,11 +75,10 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>org.enginehub</groupId>
-            <artifactId>squirrelid</artifactId>
-            <version>0.3.0</version>
-            <scope>compile</scope>
-            <type>jar</type>
+            <groupId>com.github.koca2000</groupId>
+            <artifactId>NoteBlockAPI</artifactId>
+            <version>1.6.1</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 </project>

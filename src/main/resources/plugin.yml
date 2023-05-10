@@ -1,6 +1,7 @@
 name: TestPlugin
+depend: [NoteBlockAPI]
 version: '${project.version}'
-main: com.torben.testplugin.Main
+main: me.torben.testplugin.Main
 api-version: 1.16
-authors: [ Torben ]
-description: test plugin for stuff
+commands:
+  playnbs:
