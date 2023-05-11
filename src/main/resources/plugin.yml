@@ -4,4 +4,4 @@ version: '${project.version}'
 main: me.torben.testplugin.Main
 api-version: 1.16
 commands:
-  playnbs:
+  play-nbs:

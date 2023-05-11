@@ -1,6 +1,6 @@
 package me.torben.testplugin;
 
-import me.torben.testplugin.music.NBS;
+import me.torben.testplugin.music.PlayNBS;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class Main extends JavaPlugin {
@@ -17,7 +17,7 @@ public final class Main extends JavaPlugin {
             this.getDataFolder().mkdir();
         }
 
-        getCommand("playnbs").setExecutor(new NBS(this));
+        getCommand("play-nbs").setExecutor(new PlayNBS(this));
     }
 
 

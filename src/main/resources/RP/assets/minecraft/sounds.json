@@ -28,5 +28,15 @@
         "preload": true
       }
     ]
+  },
+  "dancemonkey": {
+    "sounds": [
+      {
+        "name": "music/heisapirate.ogg",
+        "volume": 1,
+        "pitch": 1,
+        "preload": true
+      }
+    ]
   }
-  }
+}

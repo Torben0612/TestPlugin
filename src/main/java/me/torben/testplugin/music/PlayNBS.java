@@ -12,11 +12,11 @@ import org.bukkit.entity.Player;
 
 import java.io.File;
 
-public class NBS implements CommandExecutor {
+public class PlayNBS implements CommandExecutor {
 
     private Main main;
 
-    public NBS(Main main){
+    public PlayNBS(Main main){
         this.main = main;
     }
 
@@ -26,7 +26,7 @@ public class NBS implements CommandExecutor {
         if (sender instanceof Player) {
             Player player = (Player) sender;
             if (args.length != 1) {
-                sender.sendMessage("Usage: /playnbs <song name>");
+                sender.sendMessage("Usage: /play8nbs <song name>");
                 return false;
             }
             String songName = args[0];
